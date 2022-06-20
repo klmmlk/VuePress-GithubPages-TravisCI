@@ -1,0 +1,19 @@
+{
+  "name": "VuePress-GithubPages-TravisCI",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:klmmlk/VuePress-GithubPages-TravisCI.git",
+  "author": "klmmlk <jiong-lin@live.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.48",
+    "@vuepress/client": "^2.0.0-beta.48",
+    "vue": "^3.2.36",
+    "vuepress-theme-hope": "^2.0.0-beta.84"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:clean-dev": "vuepress dev docs --clean-cache"
+  }
+}
